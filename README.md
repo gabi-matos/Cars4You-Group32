@@ -67,6 +67,14 @@ Hyperparameter optimization was performed using **RandomizedSearchCV**.
 
 --- 
 
+## Conclusions
+Since we are looking for the lowest value of MAE, our best model is a Blend between our optimized Gradient Boosting, our optimized Extra Trees Regressor, and our optimized AdaBoost (with base tree). This model presents approximately 582.71 MAE for training data, and approximately 1300.56 MAE for validation data. The score on the test data, meaning, also our score in the Kaggle Competition, is 1265.74. Although the model is overfitting a bit, it is the best score we achieved in validation and test data, so we decided to present it as our final solution.
+
+--- 
+
+## Future Work
+For the future, it would be essential to retrain and monitor the models' performance to ensure that predictions remain accurate and aligned with evolving market conditions, since the new data will be changing over time. For example, inflation rates, fluctuations in the economy itself, or in the car market.
+
 ## Authors
 
 Group 32 - Carlota Magalhães; Gabriela Matos; Mariana Carvalhais 
